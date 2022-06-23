@@ -1,1 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- My Custom CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- .Animation CSS -->
+    <link href="css/animate.css/animate.compat.css" rel="stylesheet">
+    <link href="css/animate.css/animate.css" rel="stylesheet">
+    <link href="css/animate.css/animate.min.css" rel="stylesheet">
+    <!-- <link href="css/aos/aos.css" rel="stylesheet"> -->
+    <!-- Font Links -->
+    <title>Picture input test</title>
+</head>
+<body>
+    <nav class="navbar bg-blue bg-gradient rounded text-white navbar-expand-lg navbar-light bg-white text-dark sticky-top pt-0 pb-0" style="--bs-bg-opacity: .9 !important;">
+        <div class="container-fluid">
+          <a class="navbar-brand d-flex" href="index.html">
+              <img src="img/logo-oil.png" class="" style="width: 50px; height: 50px;" alt="">
+              <p class="mt-2 mx- d-none d-md-inline">The Review</p>
+          </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse  PX-5" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2  ps-2 mb-lg-0">
+              <li class="nav-item">
+              </li>
+          <li class="nav-item">
+              <div class="d-flex justify-content-start mx-lg-1">
+                  <!-- <img src="img/home.png" class="img-fluid mt-2" style="width: 20px; height: 20px;" alt=""> -->
+                  <a class="nav-link mx-2" href="otherPage.html">Explore</a>
+              </div>
+          </li>
+         
+          <li class="nav-item">
+              <div class="d-flex justify-content-start mx-lg-1">
+                  <!-- <img src="img/home.png" class="img-fluid mt-2" style="width: 20px; height: 20px;" alt=""> -->
+                  <a class="nav-link mx-2 href="./profile-library.html">Advertise</a>
+              </div>
+          </li>
+          <li class="nav-item dropdown">
+              <div class="d-flex  mx-lg-1">
+                  <!-- <img src="img/books.png" class="img-fluid mt-2" style="width: 20px; height: 20px;" alt=""> -->
+                  <a class="nav-link dropdown-toggle mx-2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Photo Menu
+                  </a>
+              </div>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Blog</a></li>
+                  <li><a class="dropdown-item" href="#">Authors</a></li>
+              </ul>
+          </li>
+              <li class="nav-item">
+                  <div class="d-flex justify-content-start mx-lg-1">
+                      <!-- <img src="img/per-ss.png" class="img-fluid mt-2" style="width: 18px; height: 18px;" alt=""> -->
+                      <a class="nav-link mx-2" href="./profile-library.html"> Log In / Sign-up</a>
+                  </div>
+              </li>
+          </ul>
+          <form class="d-flex">
+          <input class="form-control w-75  col-2 p-small" type="search" placeholder="Search up a book" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Submit</button>
+          </form>
+      </div>
+      </div>
+    </nav>
+    <section>
+        <div class="d-flex d-md-none col mt-2 mx-auto justify-centent-end">
+            <div class="overcomer">
+            <img src="img/awf.jpg" class="w-100 img-fluid h-auto" alt="">
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row mt-lg-4 mt-0 pb-lg-5">
+                <div class="col-12 col-md-6 animate__animated animate__fadeInDown animate__delay-2s animate__slow mt-3 mt-lg-0">
+                    <h1 class="col-md-12 w-75 display-5 pt-2 mt-lg-4 mt-0  text-dark px-2">Welcome to the <span class="fw-bold">Dark Side</span> web Book Review  <span class="display-0 h4  fw-bold text-secondary"> <br> - Blog</span> </h1>
+                    <hr class="col-2 bg-white pt-1 mx-2">
+                    <hr class="pt-1 mt-2 col-4 mb-5 mx-2">
+                    <div class="row d-flex mx-1 mt-2 mb-2 mt-lg-2">
+                        <button class="col-md-4 col-lg-3 mt-md-0 mt-3 col-3 d-none d-lg-inline btn btn-outline-danger mx-1"><span class="p-small  "> Our Library</span></button>
+                        <button class="col-md-4 col-lg-3 mt-md-0 mt-3 col-3 d-none d-lg-inline btn btn-outline-danger mx-1"><span class="p-small  ">Authors</span></button>
+                    </div>
+                </div>
+                <div class="d-none d-md-inline col mt-2 mx-auto justify-centent-end">
+                    <div class="overcomer">
+                    <img src="img/awf.jpg" class="w-100 img-fluid h-auto" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="pt-4 pb-5" style="background-color: rgb(248, 239, 239)">
+        <div class="container-fluid mt-3 pb-4">
+            <div class="aos-init aos-animate" data-aos="fade-up">
+                <h4 class="mt-lg-2 display-6 fw-bold animate__animated animate__fadeInUp animate__delay-1s animate__slow " >Featured</h4>
+                <h5 class="fw-normal mx-1 pt-2 pb-3 animate__animated animate__fadeInUp animate__delay-1s animate__slow ">Hot topics for the grams</h5>
+                <hr class="pt-1 mt-2 col-1 mb-3">
+                <div class="row d-flex justify-centent-between animate__animated animate__fadeInUp animate__delay-3s animate__slow ">
+                    <div class="col w-50">
+                        <div class="card rounded shadow shadow-3 h-100" >
+                            <div class="overcomer">
+                                <img src="img/book-collection-1.jpg" class="img-fluid w-100" alt="">
+                            </div>
+                            <div class="text-section p-4">
+                                <h6 class="p-small">Annoucements</h6>
+                                <h4 class="fw-bold">A look Back on May</h4>
+                                <div class="row d-flex pt-3 ">
+                                    <div class="col">
+                                        <p class="p-small ">Annie Pratt <img src="img/clock.png" class="w-20 img-fluid mx-2 my-2" alt="">June 7, 2022</p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="p-small col"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col w-50">
+                        <div class="card rounded shadow shadow-3 h-100">
+                            <div class="overcomer">
+                                <img src="img/book-5.jpg" class="img-fluid w-100" alt="">
+                            </div>
+                            <div class="text-section p-4">
+                                <h6 class="p-small">Annoucements</h6>
+                                <h4 class="fw-bold">"Dark-Webbed" for a reason</h4>
+                                <div class="row d-flex pt-3 ">
+                                    <div class="col">
+                                        <p class="p-small ">Dark web team <img src="img/clock.png" class="w-20 img-fluid mx-2 my-2" alt="">June 19, 2022</p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="p-small col"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="pt-4 pb-5" style="background-color: rgb(252, 209, 209)">
+        <div class="container-fluid mt-3 pb-4">
+            <h3 class="mx-auto  text-dark mt-4  display-6">Notable Authors</h3>
+            <h5 class="fw-normal mx-1 pt-2 pb-3 animate__animated animate__fadeInUp animate__delay-1s animate__slow ">And their queer remarks</h5>
+            <hr class="pt-1 mt-1 col-1 justify-content-start" style="background-color: rgb(53, 50, 47);">
+            <div class="row mt-3">
+                <div class="col-md-3 col-6 mt-4">
+                    <div class="overflow">
+                        <img src="img/a-6.jpg" alt="" class="img-fluid"  style="width: ; height:auto">
+                    </div>
+                   <p class=" p-small text-center pt-2">view More</p>
+                </div>
+                <div class="col-md-3 col-6 mt-4">
+                    <div class="overflow">
+                        <img src="img/a-1.jpg" alt="" class="img-fluid"  style="width: ; height:auto">
+                    </div>
+                     <p class=" p-small text-center pt-2">view More</p>
+                </div>
+                <div class="col-md-3 col-6 mt-4">
+                    <div class="overflow">
+                        <img src="img/a-5.jpg" alt="" class="img-fluid"  style="width: ; height:auto">
+                    </div>
+                     <p class=" p-small text-center pt-2">view More</p>
+                 </div>
+                <div class="col-md-3 col-6 mt-4">
+                    <div class="overflow">
+                        <img src="img/a-3.jpg" alt="" class="img-fluid"  style="width: ; height:auto">
+                    </div>
+                     <p class=" p-small text-center pt-2">view More</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="pt-4 pb-5" style="background-color: rgb(248, 239, 239)">
+        <div class="container-fluid mt-3 pb-4">
+            <div class="aos-init aos-animate" data-aos="fade-up">
+                <h4 class="mt-lg-2 display-6 fw-bold animate__animated animate__fadeInUp animate__delay-1s animate__slow " >Popular Trends</h4>
+                <h5 class="fw-normal mx-1 pt-2 pb-3 animate__animated animate__fadeInUp animate__delay-1s animate__slow ">See what people are saying about a book</h5>
+                <hr class="pt-1 mt-2 col-1 mb-3">
+                <div class="row d-flex justify-centent-between animate__animated animate__fadeInUp animate__delay-3s animate__slow ">
+                    <div class="col w-50 mt-3 mt-lg-0">
+                        <div class="card rounded shadow shadow-3 h-100" >
+                            <div class="overcomer">
+                                <img src="img/book-collection-1.jpg" class="img-fluid w-100" alt="">
+                            </div>
+                            <div class="text-section p-4">
+                                <h6 class="p-small">Annoucements</h6>
+                                <h4 class="fw-bold">A look Back on May</h4>
+                                <div class="row d-flex pt-3 ">
+                                    <div class="col">
+                                        <p class="p-small ">Annie Pratt <img src="img/clock.png" class="w-20 img-fluid" alt="">JUne 7, 2022</p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="p-small col"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col w-50 mt-3 mt-lg-0">
+                        <div class="card rounded shadow shadow-3 h-100">
+                            <div class="overcomer">
+                                <img src="img/book-5.jpg" class="img-fluid w-100" alt="">
+                            </div>
+                            <div class="text-section p-4">
+                                <h6 class="p-small">Annoucements</h6>
+                                <h4 class="fw-bold">"Dark-Webbed" for a reason</h4>
+                                <div class="row d-flex pt-3 ">
+                                    <div class="col">
+                                        <p class="p-small ">Dark web team <img src="img/clock.png" class="w-20 img-fluid" alt="">JUne 19, 2022</p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="p-small col"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col w-50 mt-3 mt-lg-0">
+                        <div class="card rounded shadow shadow-3 h-100" >
+                            <div class="overcomer">
+                                <img src="img/book-collection-1.jpg" class="img-fluid w-100" alt="">
+                            </div>
+                            <div class="text-section p-4">
+                                <h6 class="p-small">Annoucements</h6>
+                                <h4 class="fw-bold">A look Back on May</h4>
+                                <div class="row d-flex pt-3 ">
+                                    <div class="col">
+                                        <p class="p-small ">Annie Pratt <img src="img/clock.png" class="w-20 img-fluid" alt="">JUne 7, 2022</p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="p-small col"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="text-overflow pt-2  mt-5 pb-4">
+                    <p> <Span class="text-danger">Note:</Span> try to check the All post section for <span class="bg-danger text-light"> more book</span> reviews micro blog and tips. 
+                        Simply click the <span class="bg-primary text-white">load more post</span>  button to load all blogs. Thanks for understanding, as this is to maintain a well read website UI </p>
+                </div>
+           </div>
+        </div>
+    </section>
+    <section class="pt-4 mt-3 pb-5" style="background-color: rgb(242, 223, 222)">
+        <div class="container-fluid mt-3 mb-3">
+            <h4 class="mt-lg-5 display-6 text-center">Make a post</h4>
+            <p class="text-center">Contribute to our great community of book reviewers</p>
+            <div class="">
+                <div class="card col-md-6 justify-content-center   mx-auto">
+                    <form class="row g-3 p-5" id="post-form">
+                        <div class="col-lg-6 col-12">
+                            <label for="validationDefault01" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="" value="E.g paul" required>
+                        </div>
+                        
+                        <div class="col-lg-6 col-12">
+                            <label for="validationDefault02" class="form-label" >Topic</label>
+                            <input type="text" class="form-control"  id="post-title" value="Otto" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label" >Your Review</label>
+                            <textarea class="form-control"  id="post-body" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="pt-4 mt-3 pb-4" id="postFrom" style="background-color: rgb(252, 209, 209)">
+        <div class="container-fluid mt-3">
+            <h4 class="mt-lg-5 display-6 pb-1 text-center pb-3">All Posts</h4>
+            <div class="row g-3" id="post-layout">
+                    <div class="card p-2 h-75 col-lg-5 mt-4 justify-content-between align-content-center mx-auto h-100 col-md-6">
+                        <div class="overflow position-relative pb-0 ">
+                            <div class="img-slot pb-5">
+                                <div class="pt-4 pb-4">
+                                    <h6 class="post-id pt-5 pb-5 px-3 mb-5 ">id</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="img/per-s.png" alt="" class="img-fluid rounded-circle  position-absolute top-0 right-0 mt-3 mx-2 p-lg-2 pb-5">
+                        <p id="title" class="post-title pt-lg-2 pt-3 pb-0 px-3 fw-bold" id="my-post-title">Title</p>
+                        <p id="content" class="post-body pt-0 px-3" id="my-post-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, voluptatem!
+                             Nulla rerum perferendis voluptas recusandae facere nobis delectus labore. Qui soluta temporibus iusto ratione, 
+                             dolor quod officiis minima quos excepturi.</p>
+                        <div class="button-section container pt-3 pb-3">
+                            <div class="row justify-centent-center align-content-center d-flex g-lg-2">
+                                <div class="col">
+                                    <button class="btn rounded-pill px-5 btn-outline-warning col mt-2 text-dark">Update</button>
+                                </div>
+                                <div class="col">
+                                    <button class="btn rounded-pill px-5 btn-outline-success col mt-2">View</button>
+                                </div>
+                                <div class="col mx-auto">
+                                    <button class="btn rounded-pill px-5 btn-outline-danger col mt-2">Delete</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card p-2 h-75 col-lg-5 mt-4 justify-content-between align-content-center mx-auto h-100 col-md-6">
+                        <div class="overflow position-relative pb-0 ">
+                            <div class="img-slot pb-5">
+                                <div class="pt-4 pb-4">
+                                    <h6 class="post-id pt-5 pb-5 px-3 mb-5 ">id</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="img/per-s.png" alt="" class="img-fluid rounded-circle  position-absolute top-0 right-0 mt-3 mx-2 p-lg-2 pb-5">
+                        <p id="title" class="post-title pt-lg-2 pt-3 pb-0 px-3 fw-bold" id="my-post-title">Title</p>
+                        <p id="content" class="post-body pt-0 px-3" id="my-post-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, voluptatem!
+                             Nulla rerum perferendis voluptas recusandae facere nobis delectus labore. Qui soluta temporibus iusto ratione, 
+                             dolor quod officiis minima quos excepturi.</p>
+                        <div class="button-section container pt-3 pb-3">
+                            <div class="row justify-centent-center align-content-center d-flex g-lg-2">
+                                <div class="col">
+                                    <button class="btn rounded-pill px-5 btn-outline-warning col mt-2 text-dark">Update</button>
+                                </div>
+                                <div class="col">
+                                    <button class="btn rounded-pill px-5 btn-outline-success col mt-2">View</button>
+                                </div>
+                                <div class="col mx-auto">
+                                    <button class="btn rounded-pill px-5 btn-outline-danger col mt-2">Delete</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="button-section justify-centent-center mx-auto align-items-center col-4 d-flex pt-0 mt-lg-5 mt-4">
+                <button type="submit2" class="btn btn-primary justify-centent-center mx-auto align-items-center" onclick="getPosts()" >Load More Post</button>
+            </div>
+        </div>
+    </section>
+    <footer id="footer" class="vip-background-gradient3 text-white mt pb-0">
+        <div class="footer-top pt-5">
+          <div class="container pt-5 pb-5">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 ">
+                <div class="footer-info">
+                  <h3>Dark Side</h3>
+                  <p>
+                    A108 Adam Street <br>
+                    NY 535022, USA<br><br>
+                    <strong>Phone:</strong> +1 5589 55488 55<br>
+                    <strong>Email:</strong> info@example.com<br>
+                  </p>
+                  <div class="social-links mt-3">
+                    <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                    <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                    <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                    <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                    <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-6 footer-links">
+                <h4>Useful Links</h4>
+                <ul>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-2 col-md-6 footer-links">
+                <h4>Our Services</h4>
+                <ul>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-4 col-md-6 footer-newsletter">
+                <h4>Our Newsletter</h4>
+                <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                <form action="" method="post">
+                  <input type="email" name="email"><input type="submit" value="Subscribe">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container pb-5">
+          <div class="copyright">
+            &copy; Copyright <strong><span>Dark Side</span></strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+            Designed by G'nonstics-Arts</a>
+          </div>
+        </div>
+    </footer>
+    <!-- <script src="js/aos.js"></script> -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/api-apps.js"></script>
+    <script src="js/otherPage.js"></script>
+</body>
+</html>
