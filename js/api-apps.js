@@ -11,6 +11,7 @@ let userPost = [];
 
   // To Get Post 
   
+  
 function getPosts() {
     fetch('https://jsonplaceholder.typicode.com/posts')
     .then(response => response.json())
@@ -112,6 +113,8 @@ function getPosts() {
     })
   }
 
+  createPost()
+
   // to update post 
 
   function updatePost(id) {
@@ -178,8 +181,8 @@ function getPosts() {
     .then((response) => response.json())
     .then((data) => {
         console.log(data)
-        postBox = userPost.filter(post => post.id !== id)
-        // renderUI(userPost)  
+        userPost = userPost.filter(e => e.id !== id)
+        renderUI(userPost)  
     })
   }
 
